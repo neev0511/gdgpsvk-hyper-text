@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -176,6 +176,35 @@
       </div>
     </main>
 
+    <section class="slider">
+      <h1 class="heading-toppers">Student Achievers @ GDGPS</h1>
+      <h2 class="heading-toppers">Class XII:2021-22</h2>
+      <div class="w3-content" style="max-width:400px">
+        <img class="mySlides" src="images/science-2022.jpeg" style="width:100%">
+        <img class="mySlides" src="images/commerce2022.jpeg" style="width:100%">
+        <img class="mySlides" src="images/aakansha-humanities.jpeg" style="width:100%">
+      </div>
+      <div class="w3-center">
+        <div class="w3-section">
+          <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮</button>
+          <button class="w3-button w3-light-grey" onclick="plusDivs(1)">❯</button>
+        </div>
+      </div>
+      <h2 class="heading-toppers">Class X:2021-22</h2>
+      <div class="w3-content flex" style="max-width:400px">
+        <img class="mySlidesn" src="images/toppers2022-x.jpeg" style="width:100%">
+        <img class="mySlidesn" src="images/dishita2022.jpeg" style="width:100%">
+        <img class="mySlidesn" src="images/anshika2022.jpeg" style="width:100%">
+        <img class="mySlidesn" src="images/jivitesh.jpeg" style="width:100%">
+      </div>
+      <div class="w3-center">
+        <div class="w3-section">
+          <button class="w3-button w3-light-grey" onclick="plusDivsn(-1)">❮</button>
+          <button class="w3-button w3-light-grey" onclick="plusDivsn(1)">❯</button>
+        </div>
+      </div>
+    </section>
+
     <footer class="text-center text-lg-start text-muted">
     <section class="d-flex bg justify-content-center justify-content-lg-between p-4 border-bottom">
 
@@ -238,19 +267,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript">
-      $(function () {
-        var navbar = $(".header-inner");
-        $(window).scroll(function () {
-          if ($(window).scrollTop() <= 40) {
-            navbar.removeClass("navbar-scroll");
-          } else {
-            navbar.addClass("navbar-scroll");
-          }
-        });
-      });
-    </script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -1,27 +1,7 @@
-body{font-family: 'Montserrat' sans-serif;
+body{
+	font-family: 'Montserrat' sans-serif;
+	overflow-x: hidden;
 }
-
-@media only screen and (min-width:1200px){
-	.nav-item > .nav-link{padding: 5px 20px !important;
-		display: block !important;}
-}
-
-@media only screen and (max-width:992px){
-	.header-inner{background-color: white!important;
-	}
-	.nav-item > .nav-link{
-		color: black!important}
-		.logo{color: #000 !important;
-			font-weight: 600!important;}
-			.content-banner .first-title{font-size: 30px !important;
-			}
-}
-
-
-
-
-
-
 
 .content-banner{color: #ffffff;
 background-image: url(./img/banner.png);
@@ -212,6 +192,25 @@ footer, .bg {
 	color: #fff;
 }
 
+.slider {
+	text-align: center;
+}
+
+.flex {
+	display: flex;
+}
+
+.mySlidesn{
+display: none;
+}
+.mySlidesn:first-child{
+	display: block;
+}
+
+.heading-toppers{
+	font-size: 2rem;
+}
+
 @media screen and (max-width: 960px) {
 	.row-mine {
 		margin-left: 10%;
@@ -261,3 +260,26 @@ footer, .bg {
 		width: 250px;
 	}
 }
+
+
+@media only screen and (min-width:1200px){
+	.nav-item > .nav-link{padding: 5px 20px !important;
+		display: block !important;}
+}
+
+@media only screen and (max-width:992px){
+	.header-inner{background-color: white!important;
+	}
+	.nav-item > .nav-link{
+		color: black!important}
+		.logo{color: #000 !important;
+			font-weight: 600!important;}
+			.content-banner .first-title{font-size: 30px !important;
+			}
+}
+
+
+
+
+
+
