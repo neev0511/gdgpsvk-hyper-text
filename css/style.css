@@ -260,7 +260,7 @@ footer, .bg {
 	color: #fff;
 }
 footer .d-flex{
-	max-height: 250px;
+	min-height: 250px;
 	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/images/footer.jpeg?raw=true");
 
 }
@@ -304,11 +304,14 @@ display: none;
 }
 
 .row h1.font {
-	font-size: 100px;
+	font-size: 50px;
 
 }
 .col-sm {
 	margin-left: 10%;
+}
+.col-sm .font img{
+	margin-left: 35%;
 }
 
 #achieve {
@@ -374,6 +377,9 @@ display: none;
 	.gdg {
 		width: 100px;
 	}
+	.margin-top {
+		margin-top: 30px;
+	}
 }
 @media screen and (max-width: 820px) {
 	.row-mine {
@@ -387,6 +393,10 @@ display: none;
 	.mt-40 {
 		margin-top: 40px;
 	}
+	.mis_img,.vis_img{
+		width: 500px;
+		margin-top: 50px;
+	}
 }
 @media screen and (max-width: 650px) {
 	.row-mine {
@@ -394,6 +404,11 @@ display: none;
 	}
 	.raw img{
 		margin-left: -10%;
+	}
+}
+@media screen and (max-width: 576px){
+	.mis_img,.vis_img {
+		margin-top: 50px;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -408,8 +423,10 @@ display: none;
 		margin-left: 45%; 
 	}
 	.row h1.font{
-		font-size: 60px;
-		margin-bottom: -50px;
+		font-size: 30px;
+	}
+	.row h2{
+		font-size: 25px;
 	}
 	#carouselExample,#carousel {
 		width: 300px;
