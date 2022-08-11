@@ -8,10 +8,15 @@ body{
 .bg-grey{
 	background-color: lightcyan;
 	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/WhatsApp%20Image%202022-08-11%20at%2012.18.42.jpeg?raw=true");
+	margin-top: -100px;
 }
-
+.underline{
+	margin-top: -8px;
+}
 .gdg{
 	width: 150px;
+}.bg-darker .about{
+	text-decoration: underline;
 }
 
 .content-banner{color: #ffffff;
@@ -26,7 +31,7 @@ padding-top: 125px;
 
 .carryover {
 	display: flex;
-	gap: 10px;
+	gap: 150px;
 	background-color: transparent;
 }
 
@@ -37,6 +42,13 @@ padding-top: 125px;
 #carouselExample {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.carousel-control-prev-icon{
+	margin-left: -100px;
+}
+.carousel-control-next-icon{
+	margin-right: -100px;
 }
 
 .content-banner:before{position:absolute;
@@ -247,7 +259,24 @@ footer, .bg {
 	background-color: #0f5384;
 	color: #fff;
 }
+footer .d-flex{
+	max-height: 250px;
+	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/images/footer.jpeg?raw=true");
 
+}
+footer {
+	position: relative;
+	margin-top: 0px;
+	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/images/footer.jpeg?raw=true");
+}
+
+.xxx{
+	display: block;
+	color: transparent;
+}
+.margin-top {
+	margin-top: -50px;
+}
 .slider {
 	text-align: center;
 	background-color: transparent;
@@ -280,6 +309,14 @@ display: none;
 }
 .col-sm {
 	margin-left: 10%;
+}
+
+#achieve {
+	font-size: 35px;
+}
+
+.about {
+	margin-left: 60%; 
 }
 
 @media screen and (max-width: 1227px) {
@@ -367,6 +404,9 @@ display: none;
 		font-size: 60px;
 		margin-bottom: 50px;
 	}
+	.about {
+		margin-left: 45%; 
+	}
 	.row h1.font{
 		font-size: 60px;
 		margin-bottom: -50px;
@@ -406,6 +446,9 @@ display: none;
 	.logo {
 		width: 80%;
 	}
+	.underline{
+		width: 250px;
+	}
 }
 
 
@@ -418,11 +461,16 @@ display: none;
 	.header-inner{background-color: white!important;
 	}
 	.nav-item > .nav-link{
-		color: black!important}
-		.logo{color: #000 !important;
-			font-weight: 600!important;}
-			.content-banner .first-title{font-size: 30px !important;
-			}
+		color: black!important
+	}
+	.logo{
+		color: #000 !important;
+		font-weight: 600!important;
+	}
+			
+	.content-banner .first-title{
+		font-size: 30px !important;
+	}
 }
 
 
