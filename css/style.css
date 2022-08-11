@@ -5,7 +5,7 @@ body{
 }
 .bg-grey{
 	background-color: lightcyan;
-	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/grey.png?raw=true");
+	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/WhatsApp%20Image%202022-08-11%20at%2012.18.42.jpeg?raw=true");
 }
 
 .content-banner{color: #ffffff;
@@ -16,6 +16,21 @@ position: relative;
 background-position: center center;
 background-size: cover;
 padding-top: 125px;
+}
+
+.carryover {
+	display: flex;
+	gap: 10px;
+	background-color: transparent;
+}
+
+#carousel {
+	margin-right: auto;
+	margin-left: -15%;
+}
+#carouselExample {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content-banner:before{position:absolute;
@@ -150,7 +165,7 @@ color: white;}
 	color: white;
 }
 .bg-darker {
-	background-color: #003963;
+	background-color: #7AB8BF;
 }
 .quote-row {
 	width: 500px;
@@ -250,6 +265,21 @@ display: none;
 	margin-left: 10%;
 }
 
+@media screen and (max-width: 1227px) {
+	.carryover {
+		display: block;
+	}
+	#carousel {
+		margin-top: 70px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#carouselExample {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
 @media screen and (max-width: 1096px){
 	.hello{
 		margin-top: 40px;
@@ -260,6 +290,16 @@ display: none;
 	.font{
 		font-size: 20px;
 	}
+	#carousel {
+		margin-top: 70px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#carouselExample {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
 }
 
 @media screen and (max-width: 960px) {
