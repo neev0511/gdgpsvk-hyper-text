@@ -57,6 +57,10 @@ z-index: 2;
 font-weight: 400;
 margin-top: 0;}
 
+.raw img{
+	width: 375px;	
+}
+
 .banner-btn{padding:0 34px;
 z-index: 1;
 margin:30px auto 25px;
@@ -156,6 +160,7 @@ color: white;}
 .cont {
 	margin-left: 10%;
 	margin-right: 10%;
+	display: flex;
 }
 .uppercase {
 	text-transform: uppercase;
@@ -165,7 +170,7 @@ color: white;}
 	color: white;
 }
 .bg-darker {
-	background-color: #7AB8BF;
+	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/images/boxes_bg.jpeg?raw=true");
 }
 .quote-row {
 	width: 500px;
@@ -176,11 +181,6 @@ color: white;}
 	margin-bottom: 150px;
 	color: grey;
 }
-.blue {
-	color:#003366;
-	text-align: center;
-}
-
 .row-mine {
 	margin-left: 15%;
 }
@@ -354,12 +354,16 @@ display: none;
 		.logo {
 		width: 80%;
 	}
-}
-@media screen and (max-width: 400px) {
-	.row-mine {
-		margin-left: -5%;
+	.raw img,.card {
+		margin-left: -10%;
+		width: 350px;
 	}
-	.card {
+}
+@media screen and (max-width: 450px) {
+	.row-mine {
+		margin-left: 5%;
+	}
+	.card,.raw img {
 		width: 280px;
 	}
 	.logo {
@@ -368,9 +372,9 @@ display: none;
 }
 @media screen and (max-width: 350px) {
 	.row-mine {
-		margin-left: -15%;
+		margin-left: 5%;
 	}
-	.card {
+	.card,.raw img {
 		width: 250px;
 	}	
 	#carouselExample,#carousel {
