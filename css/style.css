@@ -131,7 +131,9 @@ position: fixed;
 top:0;
 z-index: 99;
 box-shadow:0px 1px 10px rgba(0,0,0,0.4);
-transition-duration: 0.6s; }
+transition-duration: 0.6s; 
+max-height: 100px;
+}
 
 .navbar-scroll .nav-item .nav-link{color: black;
 }
