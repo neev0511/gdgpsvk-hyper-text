@@ -1,11 +1,17 @@
+@import "http://fonts.googleapis.com/css?family=Merriweather&#8217";
 body{
 	font-family: 'Montserrat' sans-serif;
 	overflow-x: hidden;
 	background-image: url("images/grey.png");
+	font-family: "Merriweather";
 }
 .bg-grey{
 	background-color: lightcyan;
 	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/WhatsApp%20Image%202022-08-11%20at%2012.18.42.jpeg?raw=true");
+}
+
+.gdg{
+	width: 150px;
 }
 
 .content-banner{color: #ffffff;
@@ -58,7 +64,8 @@ font-weight: 400;
 margin-top: 0;}
 
 .raw img{
-	width: 375px;	
+	width: 400px;	
+	margin-top: -7%;
 }
 
 .banner-btn{padding:0 34px;
@@ -100,7 +107,7 @@ background-color: transparent;
 .nav-item .nav-link{display: block;
 line-height: 36px;
 text-transform: capitalize;
-font-size: 16px;
+font-size: 18px;
 font-weight: 500;
 transition: 0.15s;}
 
@@ -135,7 +142,9 @@ transition-duration: 0.6s;
 max-height: 100px;
 }
 
-.navbar-scroll .nav-item .nav-link{color: black;
+.navbar-scroll .nav-item .nav-link{
+	font-size: 18px;
+	color: black;
 }
 
 .navbar-scroll .header-btn{color: #ffffff;
@@ -173,6 +182,11 @@ color: white;}
 }
 .bg-darker {
 	background: fixed url("https://github.com/neev0511/gdgpsvk-hyper-text/blob/main/images/boxes_bg.jpeg?raw=true");
+	background-size: cover;
+
+}
+.card {	
+	border: none;
 }
 .quote-row {
 	width: 500px;
@@ -259,6 +273,7 @@ display: none;
 	width: 80%;
 	margin-top: -30px;
 }
+
 .row h1.font {
 	font-size: 100px;
 
@@ -319,6 +334,9 @@ display: none;
 	.font{
 		font-size: 15px;
 	}
+	.gdg {
+		width: 100px;
+	}
 }
 @media screen and (max-width: 820px) {
 	.row-mine {
@@ -336,6 +354,9 @@ display: none;
 @media screen and (max-width: 650px) {
 	.row-mine {
 		margin-left: 15%;
+	}
+	.raw img{
+		margin-left: -10%;
 	}
 }
 @media screen and (max-width: 500px) {
