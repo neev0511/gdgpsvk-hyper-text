@@ -2,6 +2,9 @@ body{
 	font-family: 'Montserrat' sans-serif;
 	overflow-x: hidden;
 }
+/* .bg-grey{
+	background-color: ;
+} */
 
 .content-banner{color: #ffffff;
 background-image: url(./img/banner.png);
@@ -166,7 +169,27 @@ color: white;}
 }
 
 .card {
-	width: 18rem;
+	width: 350px;
+}
+
+.img_slider{
+	width: 00px;
+	display: none;
+}
+.content .carousel {
+	width:400px;
+	height:360px;
+	align-self: center;
+	justify-content: center;
+	display: flex;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+.cr {
+	margin-top: 80px;
+	text-align: center;
 }
 
 .social a i {
@@ -211,14 +234,44 @@ display: none;
 	font-size: 2rem;
 }
 
+.vission_mission{
+	width: 80%;
+	margin-top: -30px;
+}
+.row h1.font {
+	font-size: 100px;
+
+}
+.col-sm {
+	margin-left: 10%;
+}
+
+@media screen and (max-width: 1096px){
+	.hello{
+		margin-top: 40px;
+	}
+	.row-mine{
+		margin-left: 30%;
+	}
+	.font{
+		font-size: 20px;
+	}
+}
+
 @media screen and (max-width: 960px) {
 	.row-mine {
 		margin-left: 10%;
+	}
+	.font{
+		font-size: 18px;
 	}
 }
 @media screen and (max-width: 865px) {
 	.row-mine {
 		margin-left: 05%;
+	}
+	.font{
+		font-size: 15px;
 	}
 }
 @media screen and (max-width: 820px) {
@@ -243,6 +296,20 @@ display: none;
 	.row-mine {
 		margin-left: 5%;
 	}
+	.row h1.font:last-child{
+		font-size: 60px;
+		margin-bottom: 50px;
+	}
+	.row h1.font{
+		font-size: 60px;
+		margin-bottom: -50px;
+	}
+	#carouselExample,#carousel {
+		width: 300px;
+	}
+		.logo {
+		width: 80%;
+	}
 }
 @media screen and (max-width: 400px) {
 	.row-mine {
@@ -251,6 +318,9 @@ display: none;
 	.card {
 		width: 280px;
 	}
+	.logo {
+		width: 80%;
+	}
 }
 @media screen and (max-width: 350px) {
 	.row-mine {
@@ -258,6 +328,12 @@ display: none;
 	}
 	.card {
 		width: 250px;
+	}	
+	#carouselExample,#carousel {
+		width: 250px;
+	}
+	.logo {
+		width: 80%;
 	}
 }
 

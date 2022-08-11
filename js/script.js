@@ -1,3 +1,8 @@
+AOS.init({
+  duration: 3000,
+  once: true,
+});
+
 $(function () {
   var navbar = $(".header-inner");
   $(window).scroll(function () {
