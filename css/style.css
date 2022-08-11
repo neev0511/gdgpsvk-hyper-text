@@ -449,6 +449,9 @@ display: none;
 	.logo {
 		width: 80%;
 	}
+	.underline{
+		width: 250px;
+	}
 }
 @media screen and (max-width: 350px) {
 	.row-mine {
@@ -462,9 +465,6 @@ display: none;
 	}
 	.logo {
 		width: 80%;
-	}
-	.underline{
-		width: 250px;
 	}
 }
 
